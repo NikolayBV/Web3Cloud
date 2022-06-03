@@ -48,11 +48,104 @@ body{
     margin-left: 206px;
     justify-content: center;
 }
-.text__one{
-    height: 11px;
-    width: 61px;
-    left: 195px;
-    margin: 45px;
-    
-
+.top__heading{
+    font-weight: 700;
+    font-size: 9.73404px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    color: #FFFFFF;
+    margin: auto;
+    margin-left: 195px;
+}
+.top__heading-two{
+    font-weight: 400;
+    font-size: 7.1383px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 204px;
+    margin-top: 5px;
+}
+.block1__heading{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: -0.154px;
+    color: #354371;
+    margin-left: 97px;
+    margin-top: 20px;
+}
+.block1__par{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.154px;
+    color: rgba(29, 44, 60, 0.52);
+    margin-top: 20px;
+    margin-left: 29px;
+}
+.block1__reg{
+    display: flex;
+    justify-content: center;
+}
+.block1__email{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.154px;
+    color: #5E6872;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 6px 12px;
+}
+.block1__phone{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.154px;
+    color: #32404E;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 6px 12px;
+    margin-left: 10px;
+}
+.block1__unput{
+    display: flex;
+    justify-content: center;
+}
+.block1__unput-code{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D2C3C;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+.block1__unput-phone{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #828282;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-left: 26px;
 }
