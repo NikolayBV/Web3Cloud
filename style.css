@@ -38,27 +38,30 @@ body{
     position: absolute;
     right: 0px;
 }
-.top__inner{
-    position: absolute;
+/* .top__inner{
+    /* position: absolute;
     width: 61px;
     height: 59px;
-    margin-left: 195px;
-    margin-top: 13px;
-}
-/* .top__design-left{
-    position: absolute;
-    left: -27.11%;
-    right: 50.42%;
-    top: -9.14%;
-    bottom: 60.64%;
 } */
+.top__design-left{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+}
+.top__design-right{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 254px;
+}
 .logo__item{
+    position: absolute;
     width: 38.57px;
     height: 25.54px;
-    position: relative;
-    justify-content: center;
-}
+    left: 206.03px;
+    top: 13px;
+}    
 .top__heading{
+    position: absolute;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
@@ -68,9 +71,11 @@ body{
     align-items: center;
     text-align: center;
     color: #FFFFFF;  
-    margin: 0; 
+    margin-left: 195px;
+    margin-top: 46px;
 }
 .top__heading-two{
+    position: absolute;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
@@ -80,8 +85,8 @@ body{
     align-items: center;
     text-align: center;
     color: #FFFFFF;  
-    padding-left: 9px;  
-    margin: 0;
+    margin-left: 204px;
+    margin-top: 55px;
 }
 .block1__heading{
     position: absolute;
